@@ -1,0 +1,21 @@
+EXPLICACIÓN DEL CÓDIGO: 
+1. Tomará la entrada (nombre de la ciudad) del usuario y la convertirá en longitud y latitud 
+2. Convertirá la longitud y la latitud en reloj. 
+3. ahora usaremos la longitud y la latitud en el enlace api para obtener datos de OpenweatherApi. 
+4. Puede importar datos como temperatura, clima, velocidad del viento, presión, nubes, imagen, humedad y demas otras cosas.
+5. Usamos el módulo de fecha y hora para obtener el nombre del día.
+
+PARA EL REQUIREMENTS
+pip3 freeze > requirements.txt  
+
+
+
+'''
+## zona horaria
+timezone=Label(root, font=("Helvetica", 20), fg="white", bg="#57adff")
+timezone.place(x=600, y=20)
+
+## latitud y longitud
+long_lat=Label(root, font=("Helvetica", 10), fg="white", bg="#57adff")
+long_lat.place(x=700, y=50)
+'''
